@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Parc Auto</title>
+  </head>
+  <body>
+    <!-- Video background -->
+    <video autoplay muted loop id="background-video">
+      <source src="AdobeStock_497727277.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Car Dashboard Container -->
+    <div class="dashboard-container">
+      <h1>Parc Auto</h1>
+      <p>Ouvrez la console de votre navigateur</p>
+      <p>Saisissez ces commandes dans la console</p>
+      <p>1 - console.log(Car1.toString())</p>
+      <p>2 - console.log(Car1.toRepaint("couleur de votre choix"))</p>
+      <p>3 - console.log(Car1.putGas(saisissez un nombre))</p>
+      <p>4 - console.log(Car1.gettingAround(distance, vitesse))</p>
+      <p>
+        5 - console.log(Car1.gettingAround(saisissez un nombre, saisissez un
+        nombre))
+      </p>
+
+      <div class="copyright">
+        <footer>
+          <p>
+            Copyright &copy;
+            <span id="year"></span>
+            Projet formation PARC AUTO pour l'AFPA. Tous droits réservés. ZHWEB
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
