@@ -37,8 +37,8 @@
   align-items: center;
   flex-direction: column;
 
-  height: 50vh; /* Occuper 50% de la hauteur de l'écran */
-  width: 80vw; /* Ajuster la largeur */
+  height: auto; /* Occuper 50% de la hauteur de l'écran */
+  width: auto; /* Ajuster la largeur */
   margin: 0 auto;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
